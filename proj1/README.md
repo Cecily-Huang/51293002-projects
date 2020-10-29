@@ -1,7 +1,7 @@
 # Project 1: Hurricane Study
-============================
+
 ## Overview
------------
+
 This project will focus on loops and strings.
 
 Hurricanes often count among the worst natural disasters, both in terms of monetary costs and, more importantly, human life. Data Science can help us better understand these storms.
@@ -13,7 +13,7 @@ To start, download project.py, test.py and hurricanes.csv. You'll do your work i
 This project consists of writing code to answer 20 questions. If you're answering a particular question in a cell in your notebook, you need to put a comment in the cell so I know what you're answering. For example, if you're answering question 10, the first line of your cell should contain #Q10.
 
 ## Questions and Functions
---------------------------
+
 For the first three questions, you don't have to define any functions of your own. Instead you should just make use of the functions provided in the file project.py by calling the corresponding function that you need to solve a particular problem.
 
 ### Q1: How many records are in the dataset?

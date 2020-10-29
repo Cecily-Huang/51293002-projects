@@ -65,7 +65,7 @@ expected_json = {
 def extract_question_num(cell):
     for line in cell.get('source', []):
         line = line.strip().replace(' ', '').lower()
-        m = re.match(r'\#Q(\d+)', line)
+        m = re.match(r'\#q(\d+)', line)
         if m:
             return int(m.group(1))
     return None

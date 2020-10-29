@@ -1,58 +1,56 @@
-# Project 1: Hurricane Study
+# Project 1: 飓风练习
 
-## Overview
+## 概述
 
-This project will focus on loops and strings.
+这个项目重点考察循环和字符串处理。
+无论是从对经济或是对人们生活的影响角度考虑，飓风往往是最严重的自然灾害之一。数据科学可以帮助我们更好地理解这些风暴。
 
-Hurricanes often count among the worst natural disasters, both in terms of monetary costs and, more importantly, human life. Data Science can help us better understand these storms.
+在这个项目中，你将会处理hurricanes.csv文件中的数据。
 
-For this project, you'll be analyzing data in the hurricanes.csv file.
+请下载文件project.py, test.py和hurricanes.csv以开始这个项目。你需要用Jupyter Notebooks完成你的作业，生成一个名叫hurricane.ipynb的文件。你可以通过运行命令python test.py来测试你的文件（代码）。如果需要，你可能会使用到标准Python库，比如math。
 
-To start, download project.py, test.py and hurricanes.csv. You'll do your work in Jupyter Notebooks, producing a hurricane.ipynb file. You can test your code by running python test.py to test a main.ipynb file (or python test.py other.ipynb to test a notebook with a different name). If needed, you may only use standard Python modules such as math. 
+这个项目需要你通过写代码的方式回答20个问题。当你在notebook中的某一个cell中作答一个问题，请在该cell首行写注释，如你回答第十题，就在cell首行写注释“#Q10”，这样老师就能很清楚这个cell是回答哪一个问题的。
 
-This project consists of writing code to answer 20 questions. If you're answering a particular question in a cell in your notebook, you need to put a comment in the cell so I know what you're answering. For example, if you're answering question 10, the first line of your cell should contain #Q10.
+## 问题
 
-## Questions and Functions
+对前三个问题，你不需要定义任何函数。你只需要利用文件project.py中提供的函数/方法就可以解决这些问题。
 
-For the first three questions, you don't have to define any functions of your own. Instead you should just make use of the functions provided in the file project.py by calling the corresponding function that you need to solve a particular problem.
+### Q1: 在这个hurricanes.csv文件中有多少条记录？
 
-### Q1: How many records are in the dataset?
+### Q2: 倒数第二个索引的飓风名字是什么？
 
-### Q2: What is the name of the hurricane at the second to last index?
+### Q3: 索引24对应的飓风造成了多少死亡人数？
 
-### Q3: How many deaths were caused by the hurricane at index 24?
+### Q4: 在hurricanes.csv文件中中有多少名叫Florence（忽略大小写）的飓风？
 
-### Q4: How many hurricanes named Florence (case insensitive) are in the dataset?
+### Q5: 请列出在hurricanes.csv文件中飓风造成的所有不同的死亡人数。例如，有3个飓风都引发了100人死亡，只需要将100列一次。
 
-### Q5: What is the number of unique deaths in the dataset?
+### Q6: 速度最快的飓风的名字是什么？
 
-### Q6: What is the name of the fastest hurricane?
+### Q7: 所有飓风的平均MPH是多少？
 
-### Q7: What is the average MPH achieved by all hurricanes?
+### Q8: 所有飓风造成的平均经济损失（美元）是多少？
 
-### Q8: What is the average damage (in dollars) caused by all hurricanes?
+### Q9: 由飓风Floyd造成的总死亡人数是多少？
 
-### Q9: How many deaths did hurricane 'Floyd' cause in total?
+### Q10: 在2000年到2020年之间（包括2000年和2020年），造成死亡人数最多的飓风名字是什么？
 
-### Q10: What is the deadliest hurricane between 2000 and 2020 (inclusive)?
+### Q11: 文件hurricanes.csv中，造成死亡人数最多的飓风名字是什么？
 
-### Q11: What is the deadliest hurricane ever recorded?
+### Q12: 在20世纪（从1901到2000），造成死亡人数最多的飓风发生在哪一年？
 
-### Q12: In what year did the most deadly hurricane form in 20th century (1901, 2000, inclusive)?
+### Q13: 从2000年到2010年，造成死亡人数最多的飓风带来的经济损失（美元）是多少？
 
-### Q13: How much damage (in dollars) was done by the deadliest hurricane in the last decade (2000 ,2010, inclusive)?
+### Q14: 在9月份形成的所有飓风带来的总损失（美元）是多少？
 
-### Q14: What is the total damage across all hurricanes that formed in the month of September, in dollars?
+### Q15: 在12月形成的飓风有多少个？
 
-### Q15: How many hurricanes were formed in the month of December?
+### Q16: 在8月到11月（包含8月和11月）生成飓风有多少个？
 
-### Q16: How many hurricanes formed between August and November (inclusive)?
+### Q17: 哪个月份是生成飓风最少的月份？
 
-### Q17: Which month experienced the formation of least number of hurricanes?
+### Q18: 有多少飓风是在2000年到2010年间形成的？
 
-### Q18: How many hurricanes were formed in this decade 2010-2020 (inclusive)?
+### Q19: 请计算发生过超过1000人死亡的飓风的年份的总数。如：有两年发生过超过1000人死亡的飓风，那奶奶分总数为2。
 
-### Q19: How many years in the history experienced a hurricane that caused more than 1000 in deaths?
-
-### Q20: How many years in the history experienced a hurricane that was faster than 150 mph?
-
+### Q20: 请计算发生过速度超过150 mph的飓风的年份的总数。
